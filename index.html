@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Project</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="w-full min-h-screen flex justify-center items-center bg-slate-500">
+
+    <div class="bg-white w-[350px] h-[400px] rounded-[10px] overflow-hidden">
+        <div class="relative">
+            <img src="/Assets/Image.png" alt="image" class="object-cover center w-full h-[130px] bg-blue-200">
+            <img src="/Assets/Userpic-4.png" alt="image" class="w-[95px] rounded-[50%] border-3 border-white absolute top-[80px] left-[125px]">
+        </div>
+        <div class="w-full flex flex-col items-center relative top-[50px]">
+            <span class="font-bold text-[17px]">John Miller</span>
+            <span class="text-slate-600 text-[15px] font-semibold">Freelance Web Designer</span>
+        </div>
+        <div class="flex flex-row justify-around relative top-[65px] items-center px-[15px]">
+            <span class="flex flex-col items-center">
+                <i class='bx bxs-star text-blue-900'></i>
+                <p>2k</p>
+            </span>
+            <span class="flex flex-col items-center">
+                <i class='bx bxs-group text-blue-900'></i>
+                <p>10k</p>
+            </span>
+            <span class="flex flex-col items-center">
+                <i class='bx bxs-gift text-blue-900'></i>
+                <p>15</p>
+            </span>
+        </div>
+        <div class="relative top-[90px] flex justify-center border-t-1 p-5 mx-10 border-gray-300">
+            <button type="button" class="bg-slate-950 text-white w-[130px] p-2 rounded-[40px] font-semibold outline-0 cursor-pointer">Follow</button>
+        </div>
+    </div>
+    
+</body>
+</html>
